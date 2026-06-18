@@ -1,0 +1,39 @@
+/* Unión 3 typography scale.
+   Display = Anton (uppercase, tight). Text = Archivo. */
+:root {
+  /* font families declared in fonts.css: --font-display, --font-sans */
+
+  /* ---- Type scale (px) ---- */
+  --fs-display-xl: 120px;  /* intro / hero wordmark */
+  --fs-display-lg: 72px;   /* hero title */
+  --fs-display-md: 48px;   /* section headers */
+  --fs-display-sm: 32px;   /* card titles, sub-headers */
+
+  --fs-xl: 24px;
+  --fs-lg: 20px;
+  --fs-md: 17px;   /* base body */
+  --fs-sm: 15px;
+  --fs-xs: 13px;
+  --fs-2xs: 11px;  /* eyebrow / overline */
+
+  /* ---- Weights ---- */
+  --fw-regular: 400; /* @kind font */
+  --fw-medium: 500; /* @kind font */
+  --fw-semibold: 600; /* @kind font */
+  --fw-bold: 700; /* @kind font */
+  --fw-extrabold: 800; /* @kind font */
+  --fw-black: 900; /* @kind font */
+
+  /* ---- Line heights ---- */
+  --lh-tight: 0.95; /* @kind font */
+  --lh-snug: 1.1; /* @kind font */
+  --lh-normal: 1.5; /* @kind font */
+  --lh-relaxed: 1.65; /* @kind font */
+
+  /* ---- Letter spacing ---- */
+  --ls-display: -0.01em; /* @kind font */
+  --ls-tight: -0.02em; /* @kind font */
+  --ls-normal: 0; /* @kind font */
+  --ls-eyebrow: 0.22em; /* @kind font */
+  --ls-caps: 0.06em; /* @kind font */
+}
